@@ -8,3 +8,9 @@ layout: base.njk
     <h1>This is a page for you</h1>
     <p>It was made using JAMstack.</p>
   </div>
+
+  {% for item in news %}
+  <a href="/{{ item.country }}" target="_blank">{{ item.country }}</a>
+  {% endfor %}
+
+  
