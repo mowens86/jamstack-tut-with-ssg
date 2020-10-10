@@ -1,0 +1,15 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "This tutorial was built in reference to [JAMstack Course By FreeCodeCamp](https://www.youtube.com/watch?v=A_l0qrPUJds)",
+  "main": "vibe.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
+}
